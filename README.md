@@ -1,37 +1,39 @@
-1. Overview
+# AI-Powered Disease Prediction System
 
-Language: Python
+This project demonstrates how artificial intelligence can be used to predict the presence of diseases based on patient data. It involves data preprocessing, model training using machine learning algorithms, evaluation, and visualization of results.
 
-Purpose: Predicts disease risk from patient data using machine learning.
+## Project Structure
 
-Benefit: Enables faster, accurate diagnosis and supports preventive care.
+- `model.ipynb`: Jupyter Notebook containing code for loading data, preprocessing, training a Random Forest model, and evaluating it.
+- `flowchart.png`: Visual representation of the project workflow.
+- `df_head_screenshot.png`: Preview of the dataset.
+- `report.docx`: Documentation with methodology, analysis, and results.
+- `requirements.txt`: List of dependencies.
 
+## How to Run
 
-2. Requirements
+1. Clone the repository or download the project ZIP.
+2. Install dependencies:
 
-Python 3.7+
+```bash
+pip install -r requirements.txt
+```
 
-Libraries: pandas, scikit-learn, matplotlib, seaborn
+3. Open the notebook:
 
+```bash
+jupyter notebook model.ipynb
+```
 
-3. Install
+## Requirements
 
-pip install pandas scikit-learn matplotlib seaborn
+- Python 3.7+
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
 
-4. Usage
+## Author
 
-1. Add your CSV dataset.
+Developed as a demonstration project for healthcare transformation using AI.
 
-
-2. Run the Python script or notebook.
-
-
-3. View predictions and accuracy.
-
-
-
-5. Troubleshooting
-
-Match column names to dataset.
-
-Use virtual environments to avoid conflicts.
